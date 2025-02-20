@@ -1,0 +1,44 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale = 1, width=device-width"/>
+        <template id="template-header"></template>
+        <link rel="shortcut icon" type="imagex/png" href="images/Icon.ico">
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Debt BR</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Debt BR</h1>
+            <p>Calcule as suas dividas.</p>
+        </header>
+     
+        <div id="menssage"></div>
+        <div id="form">
+            <label for="name">Nome:</label>
+            <input  autocomplete="off" id="name" type="text" name="name" placeholder="ex: Mercado"/>
+            <label id="debt-title">Preço:</label>
+            <input autocomplete="off" id="price" type="number" name="number"/>
+            <button id="new-name">Adicionar</button>
+
+        </div>
+        <hr>
+        <ul id="list-debt"></ul>
+
+        <section id="section-result">
+            <label for="wage">Seu dinheiro:</label>
+            <input autocomplete="off" id="wage" name="wage"/>
+            <button id="wage-button">Calcular</button>
+            
+            <h2>Resultados</h2>
+            <p>Preço Total: <span id="result-debt">0</span></p>
+            <p>Dinheiro Restante: <span id="result-rest">0</span></p>
+            <div id="result"></div>
+        </section>
+        <footer id="footer"><p>Giulia Gontijo &#169; todos os direitos reservados - <span id="year"></span></p></footer>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
+

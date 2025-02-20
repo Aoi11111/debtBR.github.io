@@ -9,4 +9,4 @@ Funcionalidades:
 - Mesmo que o usuário digite tudo minúsculo, a primeira letra sempre será maiúscula.
 - Conforme o usuário adiciona as dividas, isso é somado automáticamente e cria um novo item na lista númerada.
 - Quando o dinheiro restante fica negativo, ele ficará vermelho.
-- O ano do cabeçalho se atualiza automáticamente.
+- O ano do rodapé se atualiza automáticamente.

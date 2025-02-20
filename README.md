@@ -1,7 +1,7 @@
 # debtBR.github.io
 Projeto Final do CS50
 
-Um site sobre calcular suas dividas. Feito com HTML, CSS e Javascript.
+Um site que calcula as suas dividas. Feito com HTML, CSS e Javascript.
 
 Funcionalidades:
 - Não aceita que os inputs estejam vazios, avisando o usuário sobre cada particular erro.
